@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10722" started-at="2022-03-16T02:39:43Z" finished-at="2022-03-16T02:39:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10722" started-at="2022-03-16T02:39:43Z" finished-at="2022-03-16T02:39:54Z">
+      <class name="Assignemt_RestAssured.Assignment">
+        <test-method status="PASS" signature="createuser(org.testng.ITestContext, org.testng.ITestContext)[pri:0, instance:Assignemt_RestAssured.Assignment@4b168fa9]" name="createuser" duration-ms="4104" started-at="2022-03-16T02:39:43Z" finished-at="2022-03-16T02:39:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78aab498]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@78aab498]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method status="PASS" signature="login(org.testng.ITestContext, org.testng.ITestContext)[pri:0, instance:Assignemt_RestAssured.Assignment@4b168fa9]" name="login" duration-ms="1566" started-at="2022-03-16T02:39:47Z" depends-on-methods="Assignemt_RestAssured.Assignment.createuser" finished-at="2022-03-16T02:39:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78aab498]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@78aab498]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="modify(org.testng.ITestContext)[pri:0, instance:Assignemt_RestAssured.Assignment@4b168fa9]" name="modify" duration-ms="1726" started-at="2022-03-16T02:39:49Z" depends-on-methods="Assignemt_RestAssured.Assignment.createuser" finished-at="2022-03-16T02:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78aab498]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify -->
+        <test-method status="PASS" signature="logout(org.testng.ITestContext)[pri:0, instance:Assignemt_RestAssured.Assignment@4b168fa9]" name="logout" duration-ms="1640" started-at="2022-03-16T02:39:50Z" depends-on-methods="Assignemt_RestAssured.Assignment.login" finished-at="2022-03-16T02:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78aab498]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="delete(org.testng.ITestContext)[pri:0, instance:Assignemt_RestAssured.Assignment@4b168fa9]" name="delete" duration-ms="1630" started-at="2022-03-16T02:39:52Z" depends-on-methods="Assignemt_RestAssured.Assignment.logout" finished-at="2022-03-16T02:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78aab498]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- Assignemt_RestAssured.Assignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
